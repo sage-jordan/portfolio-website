@@ -1,9 +1,10 @@
 {
+  "name": "project-name",
+  "builds": [{ "src": "project-name/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+  "routes": [
+      { "src": "/(.*)", "dest": "project-name/$1" }
+  ],
   "dependencies": {
-    "now": "^16.3.1",
-    "serve": "^11.2.0"
-  },
-  "scripts": {
-    "build": "index.js"
+    "now": "^16.3.1"
   }
 }
