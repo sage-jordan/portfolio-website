@@ -4,6 +4,6 @@
     "serve": "^11.2.0"
   },
   "scripts": {
-    "build": "next build"
+    "build": "index.js"
   }
 }
