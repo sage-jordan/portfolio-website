@@ -1,10 +1,5 @@
 {
-  "name": "portfolio-website",
-  "private": true,
   "dependencies": {
     "now": "^16.3.1"
-  },
-  "scripts": {
-    "build": "my-framework build --output public"
   }
 }
