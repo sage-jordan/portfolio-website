@@ -9,7 +9,7 @@
 // Mixins.
 
 	/// Sets breakpoints.
-	/// @param {map} $x Breakpoints.
+	// / @param {map} $x Breakpoints.
 	@mixin breakpoints($x: ()) {
 		$breakpoints: $x !global;
 	}
